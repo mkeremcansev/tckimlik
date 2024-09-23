@@ -55,7 +55,7 @@ class TcKimlik
 
     public static function trUppercase($string)
     {
-        return \Transliterator::create('tr-Uppercase')->transliterate($string);
+        return \Transliterator::create('tr-Upper')->transliterate($string);
     }
 
 
